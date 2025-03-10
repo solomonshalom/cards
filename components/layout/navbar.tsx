@@ -5,9 +5,9 @@ import Link from "next/link";
 import useScroll from "@/lib/hooks/use-scroll";
 import { SignedIn, SignedOut, SignInButton, UserButton } from "@clerk/nextjs";
 import { LayoutDashboard } from "lucide-react";
-import { theGirlNextDoor } from "next/font/google";
+import { The_Girl_Next_Door } from "next/font/google";
 
-const girlNextDoor = theGirlNextDoor({ subsets: ["latin"], weight: "400" });
+const girlNextDoor = The_Girl_Next_Door({ subsets: ["latin"], weight: "400" });
 
 export default function NavBar() {
   const scrolled = useScroll(50);
